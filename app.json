@@ -2,6 +2,7 @@
   "expo": {
     "name": "rehabtrace_app",
     "slug": "rehabtrace_app",
+    "scheme": "rehabtrace",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -24,7 +25,24 @@
       "predictiveBackGestureEnabled": false
     },
     "web": {
-      "favicon": "./assets/favicon.png"
-    }
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router",
+
+      [ "expo-image-picker", {
+        "photosPermission": "Appen trenger tilgang til bildene dine for å dokumentere skader.",
+        "cameraPermission": "Appen trenger tilgang til kamera for å ta bilder av skaden "
+      }
+
+      ],
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Appen trenger posisjonen din for å logge hvor skaden oppstod."
+        }
+      ]
+    ]
   }
 }
