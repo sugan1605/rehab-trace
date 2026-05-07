@@ -4,13 +4,15 @@ A cross-platform application designed for athletes to document and track minor s
 
 ## Screenshots
 
-| Welcome Screen | Authentication | Dashboard (Dark) |
+### User Flow & Authentication
+| Login Screen | Overview (Dashboard) | Edit Entry |
 | :---: | :---: | :---: |
-| <img src="./assets/screenshots/welcome.jpg" width="200" /> | <img src="./assets/screenshots/login.jpg" width="200" /> | <img src="./assets/screenshots/dashboard_dark.jpg" width="200" /> |
+| <img src="./assets/screenshots/login.jpg" width="200" /> | <img src="./assets/screenshots/overview.jpg" width="200" /> | <img src="./assets/screenshots/edit.jpg" width="200" /> |
 
-| New Entry | Status Calculation | History Detail |
+### Injury Tracking
+| Add New Record | Entry Detail | Log Out / Settings |
 | :---: | :---: | :---: |
-| <img src="./assets/screenshots/new_entry.jpg" width="200" /> | <img src="./assets/screenshots/status.jpg" width="200" /> | <img src="./assets/screenshots/detail.jpg" width="200" /> |
+| <img src="./assets/screenshots/add_record.jpg" width="200" /> | <img src="./assets/screenshots/detail.jpg" width="200" /> | <img src="./assets/screenshots/log_out.jpg" width="200" /> |
 
 ## Tech Stack
 
