@@ -1,7 +1,6 @@
 # rehab-trace
+
 A cross-platform application designed for athletes to document and track minor sports injuries through structured observations, including pain levels, mobility, and photo documentation.
-
-
 
 ## Tech Stack
 
@@ -13,13 +12,11 @@ A cross-platform application designed for athletes to document and track minor s
 - **State Management:** React Context API & Custom Hooks
 - **Animations:** React Native Reanimated
 
-
 ## Getting Started
 
-1. Clone the repository
-2. Install dependencies: `npm install`
-3. Start the development server: `npx expo start`
-
+1. **Clone the repository**
+2. **Install dependencies:** `npm install`
+3. **Start the development server:** `npx expo start`
 
 ## Development & Testing
 
@@ -27,7 +24,6 @@ This project was developed and tested using:
 - **Environment:** Expo Go
 - **Simulators:** iOS Simulator (Xcode) running **iPhone 16 Pro**
 - **Physical Devices:** Tested on iOS devices via Expo Go to ensure touch responsiveness and native feel.
-
 
 ## Roadmaps & Upcoming Features 🚀
 
